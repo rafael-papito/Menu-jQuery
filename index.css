@@ -14,3 +14,11 @@ html,body{
 .clear{
     clear: both;
 }
+.logo{
+    width: 166px;
+    height: 64px;
+    background-color: red;
+}
+.not{
+    float: left;
+}
