@@ -51,7 +51,7 @@ nav.mobile{
 	margin-top: -50px;
 	width: 29px;
 	height: 29px;
-	
+	background-image: url(./menu-mobile.png);
 	background-size: 100% 100%;
 	z-index: 1;
 }
