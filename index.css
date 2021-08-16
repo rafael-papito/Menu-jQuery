@@ -43,3 +43,38 @@ nav.not a{
     color: black;
     font-size: 16px;
 }
+nav.mobile{
+	cursor: pointer;
+	display: none;
+	float: right;
+	margin-right: 25px;
+	margin-top: -50px;
+	width: 29px;
+	height: 29px;
+	
+	background-size: 100% 100%;
+	z-index: 1;
+}
+nav.mobile ul{
+	display: none;
+	background-color:#6CC5B2;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 80px;
+	list-style-type: none;
+	text-align: center;
+	z-index: 1;
+}
+nav.mobile ul li{
+	padding:8px 0;
+	transition: 0.4s;
+	
+}
+nav.mobile ul li:hover{
+	background-color: rgb(230,230,230);
+}
+nav.mobile ul li a{
+	color: white;
+	text-decoration: none;
+}
